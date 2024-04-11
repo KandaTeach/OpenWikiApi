@@ -1,0 +1,9 @@
+@host=http://localhost:5138
+
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5ZTFiZjEwNS02MjFmLTQyNTUtYWVkNS02OTI5ZmQzMWRhZDciLCJqdGkiOiIxYjJkYzZjMi05ZDkzLTRmOWItYmE4YS0zYTE0YTg4NDI1Y2EiLCJyb2xlcyI6IkFkbWluIiwicGVybWlzc2lvbnMiOlsiUmVhZCIsIlVwZGF0ZSIsIkRlbGV0ZSIsIkluc2VydCJdLCJleHAiOjE3MTIzMDUxNTcsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTEzOC8iLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUxMzgvIn0.OZaeHnzS7xzFkBwjULWm5gemikXuWIGrjfpaR3uuUHY
+
+@UserId=9e1bf105-621f-4255-aed5-6929fd31dad7
+
+POST {{host}}/auth/user/add/role/admin?UserId={{UserId}}
+Content-Type: application/json
+Authorization: {{token}}

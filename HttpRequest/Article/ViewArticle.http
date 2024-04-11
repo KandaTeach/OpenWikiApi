@@ -1,0 +1,8 @@
+@host=http://localhost:5138
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5ZTQ0OGI2Zi02YmUyLTQ3MzgtYWMzOC0xZGJhYjIyNzhkZjkiLCJqdGkiOiJmMjYwNGQzMi03NzYzLTQ3NGYtYjJkZC0zZjE4Mjg5NjUwZDQiLCJyb2xlcyI6IkFkbWluIiwicGVybWlzc2lvbnMiOlsiUmVhZCIsIlVwZGF0ZSIsIkRlbGV0ZSIsIkluc2VydCJdLCJleHAiOjE3MTI2NTYyMzksImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTEzOC8iLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUxMzgvIn0.QgI-bgFTViQrYh_ygppX1827MoSPxCdG3JHy8pR0TEc
+
+@ArticleId=cb954d5b-7a12-4635-be6c-00f45fda3a7d
+
+GET {{host}}/article/view?ArticleId={{ArticleId}}
+Content-Type: application/json
+Authorization: {{token}}

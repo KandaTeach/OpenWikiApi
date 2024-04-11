@@ -1,0 +1,9 @@
+@host=http://localhost:5138
+
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "sampleMember1",
+  "password": "12345"
+}

@@ -1,0 +1,8 @@
+@host=http://localhost:5138
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYzUwYTM0MS0wMmU0LTQ4ZmYtYTU1MC1iNzJmODI4ZWMyOGYiLCJqdGkiOiI4NDY3YmI0My05ZDA4LTRjYWQtYjAyMS00NGQ3ODUxYmY3M2MiLCJyb2xlcyI6WyJNZW1iZXIiLCJBZG1pbiJdLCJwZXJtaXNzaW9ucyI6WyJSZWFkIiwiVXBkYXRlIiwiRGVsZXRlIiwiSW5zZXJ0Il0sImV4cCI6MTcxMjIyNjgxOSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MTM4LyIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTEzOC8ifQ.3KHQCmU_mjfkOrFlaPxlgFXzdfZ7iW02Iq3KPN4T0g4
+
+@ArticleId=eeb1a557-9ade-45de-a6cc-84453ba5d6f8
+
+GET {{host}}/article/view/update?ArticleId={{ArticleId}}
+Content-Type: application/json
+Authorization: {{token}}

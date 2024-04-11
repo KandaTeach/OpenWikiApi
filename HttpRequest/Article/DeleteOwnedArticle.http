@@ -1,0 +1,8 @@
+@host=http://localhost:5138
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYzUwYTM0MS0wMmU0LTQ4ZmYtYTU1MC1iNzJmODI4ZWMyOGYiLCJqdGkiOiJjNTkzYjBjYi00ZjFmLTRhZTMtYjZkOS05Yjk2MTE4YmRiN2IiLCJyb2xlcyI6Ik1lbWJlciIsInBlcm1pc3Npb25zIjpbIlJlYWQiLCJVcGRhdGUiLCJEZWxldGUiLCJJbnNlcnQiXSwiZXhwIjoxNzEyMjAzMzg2LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUxMzgvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MTM4LyJ9.CEyyx3y2a8dXYG8BPbWyJJvgRbpXaBTapP3kFj5uYc8
+
+@ArticleId=6ca8f92b-051d-4bb6-bb97-32d2ec24c2c6
+
+DELETE {{host}}/article/delete/owned?ArticleId={{ArticleId}}
+Content-Type: application/json
+Authorization: {{token}}

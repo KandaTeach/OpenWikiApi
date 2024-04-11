@@ -1,0 +1,6 @@
+@host=http://localhost:5138
+@token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5ZTQ0OGI2Zi02YmUyLTQ3MzgtYWMzOC0xZGJhYjIyNzhkZjkiLCJqdGkiOiIyM2UwNzE3Yi00Mjg0LTQ4ZGMtODNkNC0yOGI2M2Q3YTE3YWEiLCJyb2xlcyI6IkFkbWluIiwicGVybWlzc2lvbnMiOlsiUmVhZCIsIlVwZGF0ZSIsIkRlbGV0ZSIsIkluc2VydCJdLCJleHAiOjE3MTI2NTU5MzAsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTEzOC8iLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUxMzgvIn0.33wdLi0JI8nPmckpB6l4-SZMWO-ziLFUra-9C25CRU8
+
+GET {{host}}/auth/user/dashboard
+Content-Type: application/json
+Authorization: {{token}}

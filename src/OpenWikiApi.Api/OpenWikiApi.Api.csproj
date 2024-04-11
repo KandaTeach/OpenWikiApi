@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!--Add this to enable XLM Comments in Swagger UI-->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!--Add this to suppress the warning codes-->
+    <NoWarn>$(NoWarn);1591</NoWarn>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.15">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenWikiApi.Contract\OpenWikiApi.Contract.csproj" />
+    <ProjectReference Include="..\OpenWikiApi.Application\OpenWikiApi.Application.csproj" />
+    <ProjectReference Include="..\OpenWikiApi.Infrastructure\OpenWikiApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

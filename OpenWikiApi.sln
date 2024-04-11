@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA214AF2-5150-4356-9268-589CF6F406EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWikiApi.Api", "src\OpenWikiApi.Api\OpenWikiApi.Api.csproj", "{3308AEF2-A4CF-4A76-B677-1C961B25A1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWikiApi.Application", "src\OpenWikiApi.Application\OpenWikiApi.Application.csproj", "{0C2931A4-BE78-448F-912A-565854739411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWikiApi.Domain", "src\OpenWikiApi.Domain\OpenWikiApi.Domain.csproj", "{DE894217-D2BE-4DC2-A76B-25A3A82513E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWikiApi.Infrastructure", "src\OpenWikiApi.Infrastructure\OpenWikiApi.Infrastructure.csproj", "{8CA52CC1-1B3A-4225-999D-7E2956161787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWikiApi.Contract", "src\OpenWikiApi.Contract\OpenWikiApi.Contract.csproj", "{1F9925E6-0FBA-4812-879D-9C6162DC831F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3308AEF2-A4CF-4A76-B677-1C961B25A1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3308AEF2-A4CF-4A76-B677-1C961B25A1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3308AEF2-A4CF-4A76-B677-1C961B25A1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3308AEF2-A4CF-4A76-B677-1C961B25A1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2931A4-BE78-448F-912A-565854739411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2931A4-BE78-448F-912A-565854739411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2931A4-BE78-448F-912A-565854739411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2931A4-BE78-448F-912A-565854739411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE894217-D2BE-4DC2-A76B-25A3A82513E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE894217-D2BE-4DC2-A76B-25A3A82513E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE894217-D2BE-4DC2-A76B-25A3A82513E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE894217-D2BE-4DC2-A76B-25A3A82513E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA52CC1-1B3A-4225-999D-7E2956161787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA52CC1-1B3A-4225-999D-7E2956161787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA52CC1-1B3A-4225-999D-7E2956161787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA52CC1-1B3A-4225-999D-7E2956161787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9925E6-0FBA-4812-879D-9C6162DC831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9925E6-0FBA-4812-879D-9C6162DC831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9925E6-0FBA-4812-879D-9C6162DC831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9925E6-0FBA-4812-879D-9C6162DC831F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3308AEF2-A4CF-4A76-B677-1C961B25A1B2} = {CA214AF2-5150-4356-9268-589CF6F406EF}
+		{0C2931A4-BE78-448F-912A-565854739411} = {CA214AF2-5150-4356-9268-589CF6F406EF}
+		{DE894217-D2BE-4DC2-A76B-25A3A82513E5} = {CA214AF2-5150-4356-9268-589CF6F406EF}
+		{8CA52CC1-1B3A-4225-999D-7E2956161787} = {CA214AF2-5150-4356-9268-589CF6F406EF}
+		{1F9925E6-0FBA-4812-879D-9C6162DC831F} = {CA214AF2-5150-4356-9268-589CF6F406EF}
+	EndGlobalSection
+EndGlobal

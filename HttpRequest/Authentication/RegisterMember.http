@@ -1,0 +1,17 @@
+@host=http://localhost:5138
+
+POST {{host}}/auth/register/member
+Content-Type: application/json
+
+{
+  "nickname": "Sample Member 1",
+  "credential": {
+    "username": "sampleMember1",
+    "password": "12345"
+  },
+  "profile": {
+    "name": "Sample 1. Member",
+    "age": 25,
+    "email": "sampleMember1@gmail.com"
+  }
+}
