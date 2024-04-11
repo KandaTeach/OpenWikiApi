@@ -15,14 +15,14 @@ OpenWikiApi is a personal project, developed to apply the creator's learning and
 
 OpenWikiApi was built following the Clean Architecture Design. The design consists of four layers: presentation, infrastructure, application, and domain.
 
-**Presentation Layer**
+**Presentation Layer:**
 Under the presentation layer lies the API itself, which includes the controllers and response mappings.
 
 | Libraries | Concepts |
 |:----------|:---------|
 | [Mapster](https://github.com/MapsterMapper/Mapster) | Mediator Pattern |
 
-**Infrastructure Layer**
+**Infrastructure Layer:**
 Under the infrastructure layer lies persistence, which implements communication with the database. Additionally, this layer implements the generation of JWT token.
 
 | Libraries | Concepts |
@@ -30,7 +30,7 @@ Under the infrastructure layer lies persistence, which implements communication 
 | [Entity Framework Core](https://github.com/dotnet/efcore)   | ORM |
 | [IdentityModel.Token.Jwt](https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet) ||
 
-**Application Layer**
+**Application Layer:**
 The application layer communicates with the infrastructure layer to execute queries and commands. Additionally, it validates requests before they are sent as queries or commands.
 
 | Libraries | Concepts |
@@ -38,7 +38,7 @@ The application layer communicates with the infrastructure layer to execute quer
 | [MediatR](https://github.com/jbogard/MediatR) | CQRS (Command and Query Responsibility Segregation)|
 | [FluentValidation](https://github.com/FluentValidation/FluentValidation) | Repository Pattern |
 
-**Domain Layer**
+**Domain Layer:**
 The domain layer is the centerpiece of this architecture. It contains the aggregates and entities that define the behavior, rules, and functionalities. In this layer, it follows the Domain Driven Design (DDD).
 
 | Libraries | Concepts |
@@ -64,6 +64,7 @@ The domain layer is the centerpiece of this architecture. It contains the aggreg
 These are the few sample usages of this web API project. Additionally, there are endpoints that haven't been included here that can be accessed with an admin role. Feel free to try them out for yourself.
 
 **Register User**
+
 You can add a user with either a member or an admin role by simply modifying the endpoint's suffix.
 
 *Request*
